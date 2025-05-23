@@ -1,0 +1,14 @@
+name: patroni-raft-controller
+type: charm
+title: Charmed Patroni Raft Controller
+summary: Charmed Patroni Raft Controller operator
+description: |
+  Charm to operate the Patroni Raft Controller.
+
+bases:
+  - build-on:
+    - name: ubuntu
+      channel: "22.04"
+    run-on:
+    - name: ubuntu
+      channel: "22.04"
