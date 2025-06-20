@@ -12,3 +12,8 @@ bases:
     run-on:
     - name: ubuntu
       channel: "22.04"
+
+provides:
+  patroni-raft-controller:
+    interface: patroni_raft_controller
+    limit: 1
